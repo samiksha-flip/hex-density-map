@@ -2,4 +2,9 @@ streamlit
 h3
 pandas
 numpy
+h3
+matplotlib
+streamlit
+# (any other packages your app uses)
+
 # other packages you use

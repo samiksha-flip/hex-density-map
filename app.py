@@ -6,7 +6,7 @@ import matplotlib.cm as cm
 import matplotlib.colors as colors
 
 # Load your data
-df = pd.read_csv("productivity_hex_cord_cumm_1.csv")
+df = pd.read_csv("productivity_hex_cord_cumm_3.csv")
 
 # Sidebar filters
 selected_pincode = st.sidebar.multiselect("Pincode", df["pincode"].unique(), default=df["pincode"].unique())
